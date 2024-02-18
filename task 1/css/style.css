@@ -1,0 +1,50 @@
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('../img/back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.navbar-brand img{
+    width: 70px;
+}
+a.header-btn{
+    background: #107fad;
+    padding: 7px 20px;
+    border-radius: 30px;
+}
+a.header-btn.download{
+    background: transparent;
+    border: 2px solid #fff;
+    padding: 7px 20px;
+    border-radius: 30px;
+}
+.casting img{
+    height: 40px;
+    width: 30px;
+    cursor: pointer;
+}
+.movie-img img{
+    height: 350px;
+    cursor: pointer;
+}
+.features-movies img:hover{
+    cursor: pointer;
+    transform: translateY(10px);
+}
+
+
+/*Responsive*/
+
+@media only screen and ( max-width:668px ) {
+    .features-movies .img-fluid{
+        margin-top: 10px;
+    }
+    section.pt-5{
+        padding-top: 0px !important;
+    }
+    section.mt-5{
+        margin-top: 15px !important;
+    }
+}
